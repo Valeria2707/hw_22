@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/style.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <div class="peopleList"></div>
+    <div class="blockBtnAdd"><button class="buttonAdd">Add</button></div>
+    <div class="editAndAdd" >
+        <form class="formEditAndAdd">
+            <p class="textForm">Enter a name:</p>
+            <input type="text" name="name" class="textName"/>
+            <p class="textForm">Enter age:</p>
+            <input type="text" name="age" class="textAge"/>
+            <p class="textForm">Enter password:</p>
+            <input type="text" name="password" class="textPassword"/>
+            <p class="textForm">Enter mail:</p>
+            <input type="text" name="mail" class="textMail"/>
+            <p class="textForm">Enter mobile phone:</p>
+            <input type="text" name="phone" class="textPhone"/>
+            <p class="textForm">Enter bank card:</p>
+            <input type="text" name="card" class="textCard"/>
+            <input type="button" id="btn" value="Save" class="btnSave"/>
+            <input type="button" id="btn" value="Save" class="btnSavePeople"/>
+            <input type="button" id="btn" value="X" class="btnClose"/>
+        </form>
+    </div>
+    <div class="confirmation">
+        <div class="blockDelete">
+            <p class="textDelete">Are you sure you want to delete data?</p>
+           <div class="blockBtnDelete">
+            <button class="yes"> Yes</button>
+            <button class="no">No</button>
+           </div>
+        </div>
+    </div>
+    <script src="./dist/result.js"></script>
+</body>
+</html>
